@@ -10,11 +10,11 @@
 
 ## 🔬 Description
 
-This repository contains Mathematica notebooks and supplementary files for the article  
+This repository contains Mathematica code and supplementary files for the article  
 **“Oganesson versus Uranium Hydrogen-like Ions and Beyond (from the Viewpoint of Old Quantum Mechanics).”**  
-The paper explores the spectral behavior of super-heavy hydrogen-like ions such as Oganesson (Z = 118), Uranium (Z = 92), and hypothetical elements with $Z > 137$, using the framework of Bohr–Sommerfeld quantization and relativistic corrections.
+The project investigates the energy levels and semiclassical orbits of super-heavy hydrogen-like ions (e.g., Oganesson, Uranium, and beyond), using Bohr–Sommerfeld quantization with relativistic corrections. It highlights the behavior near the critical charge ($Z=137$), where conventional models break down.
 
-The included notebooks produce animations of relativistic elliptical orbits in the Bohr–Sommerfeld model and demonstrate the semiclassical behavior of quantum levels across different atomic numbers.
+The Mathematica notebooks animate the elliptical orbits corresponding to relativistic energy levels for various values of $Z$, from Uranium to hypothetical super-heavy elements. These visualizations support the paper’s analysis of relativistic quantization, degeneracy lifting, and the limits of semiclassical physics.
 
 ---
 
@@ -22,34 +22,33 @@ The included notebooks produce animations of relativistic elliptical orbits in t
 
 | File | Description |
 |------|-------------|
-| `EllipsesAnimateOg118.nb` | Mathematica animation of Bohr–Sommerfeld ellipses for Oganesson ($Z=118$). |
-| `EllipsesAnimateU92.nb` | Animation for Uranium ($Z=92$). |
-| `EllipsesAnimateUbb122.nb` | Animation for $Z=122$ (Unbibium). |
-| `EllipsesAnimateUbe129.nb` | Animation for $Z=129$ (Unbiennium). |
-| `EllipsesAnimateUtb132.nb` | Animation for $Z=132$ (Untriumbium). |
-| `EllipsesAnimateUtp135.nb` | Animation for $Z=135$ (Untripentium). |
-| `EllipsesAnimateUbb122.pdf` | Exported PDF visualization of elliptical orbit evolution for $Z=122$. |
-| `Oganesson.pdf` | Typeset article submitted to arXiv. |
+| `EllipsesAnimateU92.nb` | Animation of Bohr–Sommerfeld ellipses for Uranium ($Z=92$). |
+| `EllipsesAnimateOg118.nb` | Animation for Oganesson ($Z=118$). |
+| `EllipsesAnimateUbb122.nb` | Animation for Unbibium ($Z=122$). |
+| `EllipsesAnimateUbe129.nb` | Animation for Unbiennium ($Z=129$). |
+| `EllipsesAnimateUtb132.nb` | Animation for Untriumbium ($Z=132$). |
+| `EllipsesAnimateUtp135.nb` | Animation for Untripentium ($Z=135$). |
+| `Oganesson.pdf` | Typeset version of the article submitted to arXiv. |
 
 ---
 
 ## 🧠 Core Topics
 
-- Old Quantum Theory
-- Bohr–Sommerfeld Quantization
-- Relativistic Corrections for Hydrogen-like Ions
-- Spectroscopy of Superheavy Elements
-- Critical Charge and $Z > 137$ Limit
-- Semiclassical Elliptical Orbits
-- Comparison with Dirac and Schrödinger Equations
+- Bohr–Sommerfeld Quantization  
+- Super-Heavy Hydrogen-like Ions  
+- Critical Charge ($Z=137$) Limit  
+- Relativistic Corrections  
+- Degeneracy Breaking in Energy Levels  
+- Semiclassical Elliptical Orbits  
+- Comparison with Dirac and Schrödinger Models  
 
 ---
 
 ## 🛠 Requirements
 
-To run the notebooks:
-- **Mathematica 13.0 or later** is recommended.
-- No external packages are required.
+To use the Mathematica notebooks:
+- **Mathematica 13.0 or later** is recommended for animation and plotting.
+- No additional packages are needed.
 
 ---
 
@@ -58,3 +57,45 @@ To run the notebooks:
 1. Clone the repository:
    ```bash
    git clone https://github.com/kbarley-msri/Oganesson-versus-Uranium-Hydrogen-like-Ions.git
+   ```
+
+2. Open any of the `EllipsesAnimate*.nb` notebooks using Wolfram Mathematica.
+
+3. Run all cells to reproduce the relativistic elliptical orbits for:
+   - Uranium ($Z=92$)
+   - Oganesson ($Z=118$)
+   - Hypothetical elements with $Z = 122$, $129$, $132$, and $135$
+
+---
+
+## 📝 Citation
+
+If you use this material in your work, please cite:
+
+```bibtex
+@misc{BarleyEtAl2025,
+  author       = {Barley, Kamal K. and Goren, Ben and Ruffing, Andreas and Suslov, Sergei K.},
+  title        = {Supplement to: Oganesson versus Uranium Hydrogen-like Ions and Beyond (from the Viewpoint of Old Quantum Mechanics)},
+  year         = {2025},
+  archivePrefix = {arXiv},
+  eprint       = {2509.06249},
+  primaryClass = {quant-ph},
+  howpublished = {\url{https://github.com/kbarley-msri/Oganesson-versus-Uranium-Hydrogen-like-Ions}},
+  note         = {GitHub repository, accessed September 24, 2025}
+}
+```
+
+---
+
+## 📬 Contact
+
+- Kamal K. Barley: [Kamal.Barley@howard.edu](mailto:Kamal.Barley@howard.edu)  
+- Ben Goren: [bgoren@asu.edu](mailto:bgoren@asu.edu)  
+- Andreas Ruffing: [alruffing@web.de](mailto:alruffing@web.de)  
+- Sergei K. Suslov: [sks@asu.edu](mailto:sks@asu.edu)
+
+---
+
+## 🧾 License
+
+This repository is distributed under the [MIT License](LICENSE).
