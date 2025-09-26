@@ -2,7 +2,7 @@
 
 ### 📘 *Oganesson versus Uranium Hydrogen-like Ions and Beyond (from the Viewpoint of Old Quantum Mechanics)*
 
-**Authors:** Kamal K. Barley, Ben Goren, Andreas Ruffing, and Sergei K. Suslov  
+**Authors:** Kamal K. Barley,, Andreas Ruffing, and Sergei K. Suslov  
 **Last Modified:** September 24, 2025  
 **arXiv:** [arXiv:2509.06249 [quant-ph]](https://arxiv.org/abs/2509.06249)
 
@@ -90,7 +90,6 @@ If you use this material in your work, please cite:
 ## 📬 Contact
 
 - Kamal K. Barley: [Kamal.Barley@howard.edu](mailto:Kamal.Barley@howard.edu)  
-- Ben Goren: [bgoren@asu.edu](mailto:bgoren@asu.edu)  
 - Andreas Ruffing: [alruffing@web.de](mailto:alruffing@web.de)  
 - Sergei K. Suslov: [sks@asu.edu](mailto:sks@asu.edu)
 
