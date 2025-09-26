@@ -74,7 +74,7 @@ If you use this material in your work, please cite:
 
 ```bibtex
 @misc{BarleyEtAl2025,
-  author       = {Barley, Kamal K. and Goren, Ben and Ruffing, Andreas and Suslov, Sergei K.},
+  author       = {Barley, Kamal K. and Ruffing, Andreas and Suslov, Sergei K.},
   title        = {Supplement to: Oganesson versus Uranium Hydrogen-like Ions and Beyond (from the Viewpoint of Old Quantum Mechanics)},
   year         = {2025},
   archivePrefix = {arXiv},
