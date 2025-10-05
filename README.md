@@ -1,6 +1,6 @@
 # Oganesson vs Uranium Hydrogen-like Ions – Mathematica Companion
 
-### 📘 *Oganesson versus Uranium Hydrogen-like Ions and Beyond (from the Viewpoint of Old Quantum Mechanics)*
+### 📘 *Oganesson versus Uranium Hydrogen-like Ions and Beyond from the Viewpoint of Old Quantum Mechanics*
 
 **Authors:** Kamal K. Barley,, Andreas Ruffing, and Sergei K. Suslov  
 **Last Modified:** September 24, 2025  
